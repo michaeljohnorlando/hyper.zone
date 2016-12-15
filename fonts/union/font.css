@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Union-Bold';
+  src: url('Union-Bold.eot');
+  src: url('Union-Bold.woff') format('woff'),
+       url('Union-Bold.ttf') format('truetype'),
+       url('Union-Bold.svg#Union-Bold') format('svg'),
+       url('Union-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
