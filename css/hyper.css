@@ -224,6 +224,8 @@ a:hover, a:focus {
 	-webkit-font-smoothing: antialiased;
 }
 
+
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 54.2%; /* 16:9 */
