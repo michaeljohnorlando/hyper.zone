@@ -9,13 +9,13 @@
 
 
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
-#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%; font-family:'union'; color:#bac62f; }
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%; font-family:'union'; color:#fef200; }
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
 #mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
 #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
 #mc_embed_signup input:focus {border-color:#333;}
-#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; transition: all 0.23s ease-in-out 0s; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: normal; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button {clear:both; background-color: #fef200; border: 0 none; border-radius:4px; transition: all 0.23s ease-in-out 0s; color: black; cursor: pointer; display: inline-block; font-size:15px; font-weight: normal; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
 #mc_embed_signup .button:hover {background-color:#777;}
 #mc_embed_signup .small-meta {font-size: 11px;}
 #mc_embed_signup .nowrap {white-space:nowrap;}
@@ -52,13 +52,7 @@
   box-sizing: border-box;
 }
 html,
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial;
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
-  background: #5ec792;
-}
+
 .h {
   margin-top: 0;
 }
@@ -67,9 +61,9 @@ body {
   display: inline-block;
   margin: 0;
   padding: 10px 15px;
-  background-color: #5ec792;
+  background-color: #fef200;
   border: none;
-  color: #fff;
+  color: black;
   text-align: center;
   font-size: 14px;
   font-weight: bold;
@@ -129,7 +123,7 @@ body {
   max-height: 95vh;
   margin: 20px auto;
   padding: 20px;
-  background: #fff;
+  background: #8e8e8e;
   -webkit-transform: translateY(-200%);
           transform: translateY(-200%);
   -webkit-transition: 0.3s -webkit-transform ease-in-out;
@@ -152,9 +146,9 @@ body {
 .lightbox .header .h,
 .lightbox .footer .h {
   margin: 0;
-  padding-right: 150px;
+  padding-right: 140px;
   font-family:'union';
-  color:#bac62f;
+  color:#fef200;
 }
 .lightbox .header .button:not(:first-child),
 .lightbox .footer .button:not(:first-child) {
