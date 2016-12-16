@@ -224,7 +224,11 @@ a:hover, a:focus {
 	-webkit-font-smoothing: antialiased;
 }
 
+.img-size-auto {
+	width: 100% !important;
+    height: auto !important;
 
+}
 
 .videoWrapper {
 	position: relative;
@@ -233,20 +237,6 @@ a:hover, a:focus {
 	height: 0;
 }
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.videoWrapper-fab {
-	top:12%;
-	position: relative;
-	padding-bottom: 45%; /* ??? */
-	padding-top: 25px;
-	height: 0;
-}
-.videoWrapper-fab iframe {
 	position: absolute;
 	top: 0;
 	left: 0;

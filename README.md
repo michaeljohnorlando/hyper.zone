@@ -1,4 +1,4 @@
-# hyper.zone
+# hyper.zone codepen mashup... some codedrops too
 						</div>
 							<h2 style="color:#fef200;">OPENING CEREMONY X GENTLE MONSTER <br>
 								<a style="font-size: 50%;" href="http://www.tunicastudio.com/magazine/issue-5/interview/sita-abellan">FW16 WebVR experience</a>
