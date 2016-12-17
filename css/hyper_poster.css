@@ -1,0 +1,98 @@
+.poster {
+  width: 55%;
+  padding-bottom: 39%;
+  position: absolute;
+  top: 10%;
+  left: 22%;
+  margin-top: -1px;
+  margin-left: -1px;
+  border-radius: 5px;
+  box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+.poster [class*='layer-'] {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.1s;
+}
+
+.shine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 60%);
+  z-index: 100;
+}
+
+.layer-1 {
+  background-image: url("https://static1.squarespace.com/static/51eb3924e4b008669756f61b/577ef03fc534a5050616d4fd/577ef073f5e2319c20969673/1467936886692/sita_04.jpg?format=1500w");
+  background-size: 100% auto;
+  z-index: 1;
+}
+
+.layer-2 {
+  background-image: url("https://static1.squarespace.com/static/51eb3924e4b008669756f61b/581a6e60be6594f54cc1b65d/58485cb3be6594eaf3c58088/1481137335290/hyper_zone.png?format=1500w");
+  background-size: 90% auto;
+  z-index: 3;
+}.poster {
+  width: 55%;
+  padding-bottom: 39%;
+  position: absolute;
+  top: 10%;
+  left: 22%;
+  margin-top: -1px;
+  margin-left: -1px;
+  border-radius: 5px;
+  box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+.poster [class*='layer-'] {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.1s;
+}
+
+.shine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 60%);
+  z-index: 100;
+}
+
+.layer-1 {
+  background-image: url("https://static1.squarespace.com/static/51eb3924e4b008669756f61b/577ef03fc534a5050616d4fd/577ef073f5e2319c20969673/1467936886692/sita_04.jpg?format=1500w");
+  background-size: 100% auto;
+  z-index: 1;
+}
+
+.layer-2 {
+  background-image: url("https://static1.squarespace.com/static/51eb3924e4b008669756f61b/581a6e60be6594f54cc1b65d/58485cb3be6594eaf3c58088/1481137335290/hyper_zone.png?format=1500w");
+  background-size: 90% auto;
+  z-index: 3;
+}
+
+.no-js #loader { 
+    display: none;
+}
+
+.js #loader { 
+    display: block; 
+    position: absolute; 
+    left: 100px; 
+    top: 0;
+}

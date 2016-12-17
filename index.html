@@ -16,10 +16,14 @@
 		<link rel="stylesheet" type="text/css" href="css/dragdealer.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" type="text/css" href="css/forum.css" />
-  		
+		<link rel="stylesheet" type="text/css" href="css/hyper_poster.css" />
   		<script src="js/modernizr.custom.js"></script>
   		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 		<script src="https://github.com/Modernizr/Modernizr/raw/master/modernizr.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+		<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>	
+
 		<script>
 			// Wait for window load
 			$(window).load(function() {
@@ -29,20 +33,13 @@
 				}, 1500);
 			});
 		</script>
-
-	  	<style>
-		/* This only works with JavaScript, 
-		   if it's not present, don't show loader */
-		.no-js #loader { display: none;  }
-		.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-	</style>
 	</head>
-
+	
 	<body>
 		<div class="container">
 			<header id="header" class="codrops-header">
 				<button class="slider-switch" > Content</button>
-				<span id="bottom-left">  <a  href="About link goes here">About</a></span>
+				<label id="bottom-left"  for="lightbox-3">About</label>
 				<label id="top-right"    for="lightbox-2">Contact</label>
 				<label id="bottom-right" for="lightbox-1">Subscribe</label>
 			</header>
@@ -54,133 +51,88 @@
     						<header class="header">
       							<h3 class="h h3">Subscribe to our mailing list   &#9786;</h3>
    								<label class="button" for="lightbox-1">&#x2613;</label>
-								<main class="main">
 							</header>
-<!-- Begin MailChimp Signup Form -->
-
-<div id="mc_embed_signup" id="overlay">
-	<form action="//jamesorlando.us12.list-manage.com/subscribe/post?u=e289f9c6f0875a36299a0a6ee&amp;id=1132ae2904" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    	<div id="mc_embed_signup_scroll">
-		<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-			<div class="mc-field-group">
-				<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-				</label>
-					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-			</div>
-				<div class="mc-field-group">
-					<label for="mce-FNAME">First Name  </label>
-					<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-				</div>
-					<div class="mc-field-group">
-						<label for="mce-LNAME">Last Name </label>
-						<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-					</div>
-					<div id="mce-responses" class="clear">
-						<div class="response" id="mce-error-response" style="display:none"></div>
-						<div class="response" id="mce-success-response" style="display:none"></div>
-					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-   				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e289f9c6f0875a36299a0a6ee_1132ae2904" tabindex="-1" value=""></div>
-    			<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    		</div>
-	</form>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>	
-</div>
-
-<!--End mc_embed_signup-->
-
-      				</main>
-  					</article>
-  					<label class="backdrop" for="lightbox-1"></label>
-					</aside>
-				<!-- Signup Form end -->
-					
-				<!-- Signup Form start -->
-				<aside class="lightbox">
-  					<input style="background-color:rgba(0, 0, 0, 0.5);"  type="checkbox" class="state" id="lightbox-2" />
-  						<article class="content">
-    						<header class="header">
-      							<h3 class="h h3">hello@hyper.zone &#9786;</h3>
-   								<label class="button" for="lightbox-2">&#x2613;</label>
-   							</header>
-								<main class="main"><br>
-								<img style="content:fill;" src="img/contact_hyper.png" alt="img4"/>
-							     </main>
+							<main class="main">
+							<!-- Begin MailChimp Signup Form -->
+							<div id="mc_embed_signup" id="overlay">
+								<form action="//jamesorlando.us12.list-manage.com/subscribe/post?u=e289f9c6f0875a36299a0a6ee&amp;id=1132ae2904" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    								<div id="mc_embed_signup_scroll">
+										<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+										<div class="mc-field-group">
+											<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+											<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+										</div>
+										<div class="mc-field-group">
+											<label for="mce-FNAME">First Name  </label>
+											<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+										</div>
+										<div class="mc-field-group">
+											<label for="mce-LNAME">Last Name </label>
+											<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+										</div>
+										<div id="mce-responses" class="clear">
+											<div class="response" id="mce-error-response" style="display:none"></div>
+											<div class="response" id="mce-success-response" style="display:none"></div>
+										</div>    
+										<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+   										<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e289f9c6f0875a36299a0a6ee_1132ae2904" tabindex="-1" value=""></div>
+    									<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    								</div>
+								</form>
+							</div>
+							<!--End mc_embed_signup-->
+      						</main>
   						</article>
   						<label class="backdrop" for="lightbox-1"></label>
 				</aside>
 				<!-- Signup Form end -->
 					
-					
-<div class="container">
-	<header id="header" class="codrops-header">
-			</header>
-			<footer>
+				<!-- Contact Form start -->
+				<aside class="lightbox">
+  				<input style="background-color:rgba(0, 0, 0, 0.5);"  type="checkbox" class="state" id="lightbox-2" />
+  					<article class="content">
+    					<header class="header">
+      						<h3 class="h h3">hello@hyper.zone &#9786;</h3>
+   							<label class="button" for="lightbox-2">&#x2613;</label>
+   						</header>
+							<main class="main"><br>
+							<img style="content:fill;" src="img/contact_hyper.png" alt="img4"/>
+							</main>
+  					</article>
+  					<label class="backdrop" for="lightbox-2"></label>
+				</aside>
+				<!-- Contact Form end -->
 				
-			</footer>
-			<div id="overlay" class="overlay hide">
-				<div class="info">
-					<h2>Website interactions</h2>
-					<span class="info-drag">Drag Sliders</span>
-					<span class="info-keys">Use Arrows</span>
-					<span class="info-switch">Switch view</span>
-					<button>Got it!</button>	
-				</div>
-			</div> 
+				<!-- About start -->
+				<aside class="lightbox">
+  				<input style="background-color:rgba(0, 0, 0, 0.5);"  type="checkbox" class="state" id="lightbox-3" />
+  					<article class="content">
+    					<header class="header">
+      						<h3 class="h h3">About &#9786;</h3>
+   							<label class="button" for="lightbox-3">&#x2613;</label>
+   						</header>
+							<main class="main">
+								HYPER.ZONE is a Cultural Gaming Experience showcasing Art, Architecture, 
+								Design & Fashion. We offer distinctive immersive experiences through our Content 
+								Creation studio specializing in Digital Experiences, Photography, Motion, Gaming & Virtual Reality.
+								Founded in 2015 by James Orlando, an alumni of NewINC the Art/Technology incubator at the New Museum.
+							</main>
+  					</article>
+  					<label class="backdrop" for="lightbox-3"></label>
+				</aside>
+				<!-- About end -->
+				
+<!-- this is slopy-->					
+<div class="container">
+	<header id="header" class="codrops-header"></header>
+			<footer></footer>
+			<div id="overlay" class="overlay hide"></div>
 			<div id="slideshow" class="dragslider">
 				<section class="img-dragger img-dragger-large dragdealer">
 					<div class="handle">
 						<div class="slide" data-content="content-1">
-							<div class="img-wrap" id="poster-wrap">      
-    <style>
-      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! 
-         SOO the entire poster info was put here insted of a CSS
-         */
-.poster {
-  width: 55%;
-  padding-bottom: 39%;
-  position: absolute;
-  top: 10%;
-  left: 22%;
-  margin-top: -1px;
-  margin-left: -1px;
-  border-radius: 5px;
-  box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
-  overflow: hidden;
-}
-.poster [class*='layer-'] {
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  right: -10px;
-  bottom: -10px;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: 0.1s;
-}
-
-.shine {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 60%);
-  z-index: 100;
-}
-
-.layer-1 {
-  background-image: url("https://static1.squarespace.com/static/51eb3924e4b008669756f61b/577ef03fc534a5050616d4fd/577ef073f5e2319c20969673/1467936886692/sita_04.jpg?format=1500w");
-  background-size: 100% auto;
-  z-index: 1;
-}
-
-.layer-2 {
-  background-image: url("https://static1.squarespace.com/static/51eb3924e4b008669756f61b/581a6e60be6594f54cc1b65d/58485cb3be6594eaf3c58088/1481137335290/hyper_zone.png?format=1500w");
-  background-size: 90% auto;
-  z-index: 3;
-}
-    </style>
-
+							<div class="img-wrap" id="poster-wrap">    
+<!-- this is slopyerrr-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 <body>
@@ -197,14 +149,12 @@
 							<h2 class="overlay hide">Hyper.Zone<span class="overlay hide">CrCoSt</span></h2>
 							<button class="content-switch"></button>
 						</div>
-
+<!-- end this is slopyerrr-->
 
 						<div class="slide" data-content="content-2">
 							<div class="img-wrap">						
-							<!--  Video  -->
-								<div class="videoWrapper">
-								<!-- from Vimio -->
-									<iframe src="https://player.vimeo.com/video/195252249?background=1&loop=1" width="1200" height="675" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+								<div >
+									<div class="videoWrapper"><iframe src="https://player.vimeo.com/video/195252249?background=1&loop=1" width="1200" height="675" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 								</div>
 							</div>
 							<h2 style="color:#fef200;">360° of Fab <span>A 360 Shoppable E-Commerce Experience</span></h2>
@@ -345,6 +295,7 @@
 				</section>
 			</div>
 		</div><!-- /container --> 
+		
 		<script src="js/dragdealer.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/dragslideshow.js"></script>

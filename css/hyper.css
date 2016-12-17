@@ -244,6 +244,11 @@ a:hover, a:focus {
 	height: 100%;
 }
 
+.cover_iframe {
+	padding:50%; 
+	opacity: .5;
+}
+
 @media screen and (max-width: 650px) {
 	.message {
 		display: block;
