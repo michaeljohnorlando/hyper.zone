@@ -36,6 +36,14 @@
 	</head>
 	
 	<body>
+		
+		<video loop="" muted="" autoplay="" poster="img/SITA_ABELLAN/Sita1.jpg" class="fullscreen-bg__video" data-ss1482032656="1">
+            <source src="video/tiger_loop.mp4" type="video/mp4">
+        </video>
+		
+		
+		
+		
 		<div class="container">
 			<header id="header" class="codrops-header">
 				<button class="slider-switch" > Content</button>
@@ -49,7 +57,7 @@
   					<input type="checkbox" class="state" id="lightbox-1" />
   						<article class="content">
     						<header class="header">
-      							<h3 class="h h3">Subscribe to our mailing list   &#9786;</h3>
+      							<h3 class="h h3">Subscribe to our mailing list </h3>
    								<label class="button" for="lightbox-1">&#x2613;</label>
 							</header>
 							<main class="main">
@@ -92,11 +100,15 @@
   				<input style="background-color:rgba(0, 0, 0, 0.5);"  type="checkbox" class="state" id="lightbox-2" />
   					<article class="content">
     					<header class="header">
-      						<h3 class="h h3">hello@hyper.zone &#9786;</h3>
+      						<h3 style="padding-left: 5%;" class="h h3"> <!-- fb and twiter link -->
+      							<a href="https://www.facebook.com/HYPER.Z0NE/" target="_blank"><img src="img/facebook_icon.ico" style="height: 45px;"/></a>
+      							<a href="https://www.instagram.com/hyper.zone/" target="_blank"><img src="img/Instagram_icon.png" style="height: 45px;"/></a> 
+      						</h3> 
    							<label class="button" for="lightbox-2">&#x2613;</label>
    						</header>
 							<main class="main"><br>
 							<img style="content:fill;" src="img/contact_hyper.png" alt="img4"/>
+							<center><p id="contact">hello@hyper.zone </p></center>
 							</main>
   					</article>
   					<label class="backdrop" for="lightbox-2"></label>
@@ -108,21 +120,23 @@
   				<input style="background-color:rgba(0, 0, 0, 0.5);"  type="checkbox" class="state" id="lightbox-3" />
   					<article class="content">
     					<header class="header">
-      						<h3 class="h h3">About &#9786;</h3>
+      						<h3 style="padding-left: 5%;" class="h h3" >About </h3>
    							<label class="button" for="lightbox-3">&#x2613;</label>
    						</header>
-							<main class="main">
-								HYPER.ZONE is a Cultural Gaming Experience showcasing Art, Architecture, 
-								Design & Fashion. We offer distinctive immersive experiences through our Content 
-								Creation studio specializing in Digital Experiences, Photography, Motion, Gaming & Virtual Reality.
+							<main  class="main">
+								<p id="about">
+								HYPER.ZONE creates cultural gaming experiences showcasing art, architecture, 
+								design & fashion. <br> <br>We offer distinctive immersive experiences through our content 
+								creation studio specializing in Digital Campaigns, Photography, Motion, Gaming & Virtual Reality.<br><br>
 								Founded in 2015 by James Orlando, an alumni of NewINC the Art/Technology incubator at the New Museum.
+								</p>
 							</main>
   					</article>
   					<label class="backdrop" for="lightbox-3"></label>
 				</aside>
 				<!-- About end -->
 				
-<!-- this is slopy-->					
+<!-- this is slopy frankinstine codedrops template...-->					
 <div class="container">
 	<header id="header" class="codrops-header"></header>
 			<footer></footer>
@@ -147,17 +161,20 @@
 </html>
 </div>
 							<h2 class="overlay hide">Hyper.Zone<span class="overlay hide">CrCoSt</span></h2>
-							<button class="content-switch"></button>
+							
+							<button class="content-switch" type="image" style="height:64px;width:64px;" src="img/arrow_up.png"></button>
 						</div>
 <!-- end this is slopyerrr-->
 
 						<div class="slide" data-content="content-2">
 							<div class="img-wrap">						
-								<div >
-									<div class="videoWrapper"><iframe src="https://player.vimeo.com/video/195252249?background=1&loop=1" width="1200" height="675" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-								</div>
+								<video width="100%" height="100%" autoplay="autoplay" loop="loop">
+  									<source src="video/Fab_video.mp4" type="video/mp4">
+  								    <!--	<source src="movie.ogg" type="video/ogg">    should also have this format... -->
+  									Your browser does not support the video.
+								</video>
 							</div>
-							<h2 style="color:#fef200;">360° of Fab <span>A 360 Shoppable E-Commerce Experience</span></h2>
+							<h2 style="color:#fef200;">360° of Fab <span><b>A 360 Shoppable E-Commerce Experience</b></span></h2>
 							<button class="content-switch"></button>
 						</div>
 
@@ -168,11 +185,13 @@
 						</div>
 						
 						<div class="slide" data-content="content-4">
-						<!--  Video  -->
-						<div class="videoWrapper" >
-							<!-- from Vimio -->
-							<iframe src="https://player.vimeo.com/video/188185059?background=1&loop=1" width="1200" height="675" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-						</div>
+							<div class="img-wrap">						
+								<video width="100%" height="100%" autoplay="autoplay" loop="loop">
+  									<source src="video/OCa.mp4" type="video/mp4">
+  								    <!--	<source src="movie.ogg" type="video/ogg">    should also have this format... -->
+  									Your browser does not support the video.
+								</video>
+							</div>
 							<h2 style="color:#fef200;">OPENING CEREMONY X GENTLE MONSTER <span>FW16 WebVR experience</span></h2>
 							<button class="content-switch"></button>
 						</div>
@@ -180,26 +199,26 @@
 						
 						<div class="slide" data-content="content-5">
 							<div class="img-wrap" style="max-width:100%;"><img src="img/steve_madden/TITLE STEVE_MADDEN.gif" alt="img8"  width="590" height="420"/></div>
-							<h2 style="color:#fef200;">Steve Madden X Iggy Azalea <span>SS15 Digital Campaign</span></h2>
+							<h2 style="color:#fef200;">STEVE MADDEN X IGGY AZALEA <span>SS15 Digital Campaign</span></h2>
 							<button class="content-switch"></button>
 						</div>
 						
 						
 						<div class="slide" data-content="content-6">
 							<div class="img-wrap"><img src="img/MARK_RONSON/TITLE MARK_RONSON.jpg" alt="img8"/></div>
-							<h2 style="color:#fef200;">Mark Ronson <span>Nero Magazine Japan</span></h2>
+							<h2 style="color:#fef200;">MARK RONSON <span>Nero Magazine Japan</span></h2>
 							<button class="content-switch"></button>
 						</div>
 						
 						<div class="slide" data-content="content-7">
 							<div class="img-wrap"><img src="img/TITLE Violnce.X.png" alt="img8"/></div>
-							<h2 style="color:#fef200;">VIOLENCE <span>Music Video for Dazed Digital</span></h2>
+							<h2 style="color:#fef200;">VIOLENCE <span>Music Video for 'Rain' on Dazed Digital</span></h2>
 							<button class="content-switch"></button>
 						</div>
 						
 						<div class="slide" data-content="content-8">
 							<div class="img-wrap"><img src="img/SITA_ABELLAN/TITLE SITA_ABELLAN.jpg" alt="img8"/></div>
-							<h2 style="color:#fef200;">Sita Abellan <span>Tunica Magazine</span></h2>
+							<h2 style="color:#fef200;">SITA ABELLAN <span>Tunica Magazine</span></h2>
 							<button class="content-switch"></button>
 						</div>
 						
@@ -211,7 +230,7 @@
 						
 						<div class="slide" data-content="content-10">
 							<div class="img-wrap"><img src="img/TITLE Lam&Basquiat.jpg" alt="img8"/></div>
-							<h2 style="color:#fef200;">Lam + Basquiat <span>Galerie Gmuzynska  </span></h2>
+							<h2 style="color:#fef200;">MERCEDES BENZ X SLATE <span>Influencer Advertorial  </span></h2>
 							<button class="content-switch"></button>
 						</div>
 						
@@ -223,12 +242,14 @@
 				<section class="pages">
 					
 					<div class="content" data-content="content-1">
-						<div class="videoWrapper" ><iframe src="Parallax_hyper_zone.html"></iframe></div>
+						<div class="videoWrapper">
+							<iframe src="Parallax_hyper_zone.html"></iframe>
+						</div>
 					</div>
 
 					<div class="content" data-content="content-2">
-						<h2 id="union-font">coming soon<span>...</span></h2>
-						<img style="padding:20px" src="img/waiting.gif" />
+						<h2 id="union-font">VR 360 shoping<span>  </span></h2>
+						<script src="http://360.vizor.io/scripts/embed.js" data-vizorurl="http://360.vizor.io/embed/v/jy8w" ></script>
 					</div>
 					
 					<div class="content" data-content="content-3">
@@ -237,26 +258,33 @@
 					
 					<div class="content" data-content="content-4">
 						<h2>WebVR experience<span>FW16 Accessories by Julia Min<br>WebVR Experience by Hyper.Zone </span></h2>
-						<p>Photography by James Orlando <br>Styling by Brie McCabe</p>
-						<iframe width="100%"
-							height="300px"
-							allowfullscreen
-							frameborder="0"
-							src="//storage.googleapis.com/vrview/index.html?image=//storage.googleapis.com/vrview/examples/coral.jpg&is_stereo=true">
-						</iframe>
+						<script src="http://vizor.io/scripts/embed.js" data-vizorurl="http://vizor.io/embed/juliamin/oc_fw16" ></script>
 					</div>
 					
 					<div class="content" data-content="content-5">
-						<!--  Photo_Gallery from google-->
-						<div class="videoWrapper" ><iframe src="Photo_Gallery.html"></iframe></div>
+					<!--  Photo_Gallery from google-->
+					<div class="videoWrapper" ><iframe src="steve_madden.html"></iframe></div>
+					<iframe src="https://player.vimeo.com/video/122153568?background=1&loop=1" width="1200" height="675" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<p>
+							Art Direction / Photography: James Orlando<br>
+							Styling: Stephanie Singer<br>
+							Beauty: Johnny Rackleff<br>
+							Model: Alexandra Marzella<br>
+							Producer: Brie McCabe<br>
+							360 Photo Sphere + Web Design: Andrew McCarthy <br>
+							Nail Tech: Casey Herman<br>
+							3D Scans: Tyler Barker <br>
+							Photo Assistant / Digital Tech: Dana DeCoursey <br>
+							
+						</p>
 					</div>
 					
-					<div class="content" data-content="content-6">
+					<div class="content" data-content="content-6" style="overflow: hidden;">
 						<div class="videoWrapper" ><iframe src="Parallax_Mark_Ronson.html"></iframe></div>
 					</div>
 					
 					<div class="content" data-content="content-7">
-						<h2>HYPER.ZONE Presents <span>The New Basic</span></h2>
+						<h2>VIOLENCE<span>Music Video for 'Rain' on Dazed Digital</span></h2>
 						<p>Get to know VIOLENCE, a former death metal drummer who writes bruising yet beautiful electronic pop songs, and watch his new video for ‘Rain’</p>
 							<!--  Video  -->
 						<div class="videoWrapper" >
@@ -285,11 +313,9 @@
 					</div>
 					
 					<div class="content" data-content="content-10">
-						<h2>Lam + Basquiat <span>Galerie Gmuzynska</span></h2>
+						<div class="videoWrapper" ><iframe src="Parallax_MERCEDES_BENZ.html"></iframe></div>
 						<p>photography James Orlando<br>styling Soukena Roussi<br>Grooming Shelby Samaria <br>Photo Assistant Alya Sorour</P>
-						<p class="related">
-							You might also like <a href="http://tympanus.net/Development/ArticleIntroEffects/">Inspiration for Article Intro Effects</a>
-						</p>
+						<p></p> <!-- lazy temp fix for template -->
 					</div>
 					
 				</section>

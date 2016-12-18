@@ -251,10 +251,8 @@ button.slider-switch:hover {
 	font-style: normal;
 	font-weight: 400;
 }
-
+/* this is a mess... */
 button.content-switch {
-  width: 0px;
-  height: 0px;
   border: 50px solid transparent; 
   border-top-color: yellow; 
   margin: 0;

@@ -176,3 +176,20 @@ html,
 .main {
   overflow: hidden;
 }
+
+.main #about {
+   font-family:'union';
+   color:#fef200;
+   padding:5%;
+}
+.main #contact {
+   font-family:'union';
+   color:#fef200;
+   padding:5%;
+   font-size:200%;
+   padding-top: 0px;
+   margin: 0px;
+}
+.main .icon_size {
+  height: 45px;
+}
