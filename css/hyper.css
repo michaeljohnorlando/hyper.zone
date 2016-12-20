@@ -16,7 +16,6 @@
 .clearfix:after { clear: both; }
 
 body {
-	background:  url(http://www.lovethisgif.com/uploaded_images/2666-backgrounds.gif) no-repeat center center fixed; 
     background-size: cover;
 }
 
